@@ -4,6 +4,13 @@ import { ApiResponse, FactoryProps } from "../../types";
 import styles from "./styles.module.css";
 
 
+/**
+ * Component to show information about an api endpoint 
+ *
+ * @author isaias chávez 
+ * @params See {@link FactoryProps}
+ */
+
 const Factory: React.FC<FactoryProps > = ({ endpoint, config, title,cardStyles,children }) => {
   const [data, setData] = useState<ApiResponse | undefined | null>(null);
   const [error, setError] = useState<any>(null);
