@@ -1,0 +1,38 @@
+.card {
+  max-width: 15%;
+  min-width: 12rem;
+  min-height: 12rem;
+  box-shadow: -4px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title{
+    font-size: var(--title);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+.statusDanger{
+    text-align: center;
+    background-color:var(--bg-danger);
+    color:var(--white);
+    padding:0.3rem;
+}
+
+.statusOk{
+    text-align: center;
+    background-color: var(--bg-success);
+    color: var(--white);
+    padding:0.3rem;
+}
+.hostname{
+    font-size: var(--label);
+    text-align: center;
+}
